@@ -3,30 +3,24 @@
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
-    
-}
-
-
-
-
-
+} 
 
 .tytan
 {
-    background: #1d2026;
-    min-height: 100vh;
-    animation-name: appear;
-    animation-duration: 0.6s; 
-    animation-fill-mode: both;
-    
-    
+      background: #1d2026;
+       min-height: 100vh;
+       width: 100%;
+       color: #fff;
+       position: relative;
+       text-align: center;
+       animation-name: appear;
+       animation-fill-mode: both;
+       animation-duration: 0.6s;
 
 }
 
-
-
-.special{
-    
+.napis
+{
     text-align: center;
     font-size: 30px;
     color: #fff;
@@ -40,24 +34,10 @@
     top: 2vh;
     animation-name: appear;
     animation-fill-mode: both;
-    
-    
-    
 }
 
-@keyframes  appear {
-    from {
-       opacity: 0; 
 
-    }
-
-    to
-    {
-      opacity: 1;
-    }
-}
-
-.list ul li a
+.back ul li a
 {
     padding: 14px 40px;
     background-color: #00986f;
@@ -71,23 +51,22 @@
     
 }
 
-a
-{
+a{
     text-decoration: none;
     color: #fff;
-    
 }
 
-.list ul li a:hover
+@keyframes appear
 {
-    box-shadow: 7px 4px #fff;
-    font-size: 17px;
-    max-width: 210px;
-    cursor: pointer;
-    
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
 }
 
 h1{
     font-family: 'Lato', sans-serif;
 }
-

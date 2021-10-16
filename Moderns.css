@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+} 
+
+.ModernsMainDiv
+{
+       background: #1d2026;
+       min-height: 100vh;
+       width: 100%;
+       color: #fff;
+       position: relative;
+       text-align: center;
+       animation-name: appear;
+       animation-fill-mode: both;
+       animation-duration: 0.6s;
+
+       
+}
+
+.napis
+{
+    
+    
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.8;
+    padding: 14px 40px;
+    background-color: #00986f;
+    max-width: 650px;
+    margin: auto;
+    border-radius: 100px;    
+    position: relative;
+    top: 2vh;
+    animation-name: appear;
+    animation-fill-mode: both;
+    
+    
+    
+}
+
+
+
+.back ul li a
+{
+    padding: 14px 40px;
+    background-color: #00986f;
+    max-width: 190px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 20px;
+    font-family: 'Andada Pro', serif;
+    
+    
+}
+
+
+.back ul li a:hover
+{
+    padding: 14px 40px;
+    background-color: #00986f;
+    max-width: 300px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 20px;
+    font-family: 'Andada Pro', serif;
+    box-shadow: 7px 7px #fff;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Andada Pro', serif;
+
+}
+
+h1
+{
+    font-family: 'Lato', sans-serif;
+}
+
+
+@keyframes appear
+{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
