@@ -33,7 +33,7 @@ h1{
     background-color: #00986f;
     max-width: 650px;
     margin: auto;
-    border-radius: 100px;    
+    border-radius: 20px;    
     position: relative;
     top: 2vh;
     animation-name: appear;
